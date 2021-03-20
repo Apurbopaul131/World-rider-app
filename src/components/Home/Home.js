@@ -3,7 +3,7 @@ import Header from './Header/Header';
 import fakeData from '../../fakeData/data.json';
 import Counter from './Counter/Counter';
 import './Home.css'
-import backGroundImg from '../../Bg.png'
+import backGroundImg from './Rider5.jpg';
 
 const Home = () => {
     const [cars, setCars] = useState([]);
