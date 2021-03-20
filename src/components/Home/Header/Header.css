@@ -12,6 +12,7 @@
     color: black;
     font-weight: bold;
   }
+ 
   @media(min-width:768px){
       .nav-style{
           width: 100%;

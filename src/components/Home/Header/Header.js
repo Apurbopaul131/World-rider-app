@@ -8,7 +8,11 @@ const Header = () => {
     return (
         <div className="nav-style ">
             <nav className="nav">
-                <ul>
+                <div>
+                    <h5 style={{marginLeft:"10px"}}>World rider app</h5>
+                </div>
+              <div>
+              <ul>
                     <li>
                         <Link to="/home">Home</Link>
                     </li>
@@ -23,6 +27,7 @@ const Header = () => {
                         {loggedInUser.name}
                     </li>
                 </ul>
+              </div>
             </nav>
         </div>
     );
